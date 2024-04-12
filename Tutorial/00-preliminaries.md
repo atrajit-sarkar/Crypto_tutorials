@@ -3,7 +3,7 @@
 Plain text is a text that we need to encode with certain methods.
 ## Encoding function:
 Encoding function is a map  $\epsilon:\mathcal{P} \rightarrow \mathcal{P}$
-Where $\mathcal{P}$ is defined as $\mathcal{P}=\{A,B,C,D,....X,Y,Z,...\}$ as symbols desired. According to our [example](https://replit.com/@atrajitsarkar/Cryptographytutorial#.tutorial/01-Storing_data.md:4) we have, \
+Where $\mathcal{P}$ is defined as $\mathcal{P}=\{A,B,C,D,....X,Y,Z,...\}$ as symbols desired. According to our [example](01-Storing_data.md#making-data-base) we have, \
  $\mathcal{P}=\{A;B;C;D;....X;Y;Z;\text{ } ;",";".";?;0;1;2;3;4;5;6;7;8;9;!\}$ 
  
  ## Affine Cipher Encoding function:
@@ -22,7 +22,7 @@ Where $\mathcal{P}$ is defined as $\mathcal{P}=\{A,B,C,D,....X,Y,Z,...\}$ as sym
  
  ## Decoding Function:
  This is just the oppsoite of Encoding.
- In our [example](https://replit.com/@atrajitsarkar/Cryptographytutorial#.tutorial/01-Storing_data.md:4)
+ In our [example](01-Storing_data.md#making-data-base)
 $d:\mathcal{P}\rightarrow \mathcal{P}$ is defined as $d(c)=a^{-1}(c-b)(mod|\mathcal{P}|)$.
 
 ## Greatest Common Divisor(GCD):
@@ -43,4 +43,8 @@ and $r_{n+1}=gcd(a,b)$
 
 ## Inverse of a word:
 First see the dictionary key (say a) of the word and invert it i.e. solve the equation $ax\equiv 1(mod|\mathcal{P}|)$.\
-Inverse exits iff $gcd(a,|\mathcal{P}|)=1$.
+Inverse exits iff $gcd(a,|\mathcal{P}|)=1$.\
+
+[next page](./01-Storing_data.md)
+
+                            
