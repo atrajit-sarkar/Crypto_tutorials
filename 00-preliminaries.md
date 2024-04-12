@@ -30,9 +30,9 @@ Search for all the numbers that divides both a & b and find the max of all those
 
 ### Finding GCD of two numbers:
 #### Euclidean Algorithm :
-Simply divide a with b if $a>b$.\
-$a=bq+r$, Where $0<r<b$.\
-$b=rq_1+r_1$, Where $0<r_1<r$.\
+Simply divide a with b if $a\geq b$.\
+$a=bq+r$, Where $0\leq r<b$.\
+$b=rq_1+r_1$, Where $0\leq r_1<r$.\
 .\
 .\
 .\
