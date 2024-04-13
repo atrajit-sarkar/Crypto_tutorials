@@ -4,7 +4,7 @@ Plain text is a text that we need to encode with certain methods.
 ## Encoding function:
 Encoding function is a map  $\epsilon:\mathcal{P} \rightarrow \mathcal{P}$
 Where $\mathcal{P}$ is defined as $\mathcal{P}=\{A,B,C,D,....X,Y,Z,...\}$ as symbols desired. According to our [example](01-Storing_data.md#making-data-base) we have, \
- $\mathcal{P}=\{A;B;C;D;....X;Y;Z;\text{ } ;",";".";?;0;1;2;3;4;5;6;7;8;9;!\}$ 
+ $\mathcal{P}=\\{A;B;C;D;....X;Y;Z;\text{ } ;",";".";?;0;1;2;3;4;5;6;7;8;9;!\\}$ 
  
  ## Affine Cipher Encoding function:
  In case of affine cipher we have the following function of encoding:
@@ -31,8 +31,8 @@ Search for all the numbers that divides both a & b and find the max of all those
 ### Finding GCD of two numbers:
 #### Euclidean Algorithm :
 Simply divide a with b if $a\geq b$.\
-$a=bq+r$, Where $0\leq r<b$.\
-$b=rq_1+r_1$, Where $0\leq r_1<r$.\
+$a=bq+r$, Where $0\leq r < b$.\
+$b=rq_1+r_1$, Where $0\leq r_1 < r$.\
 .\
 .\
 .\
