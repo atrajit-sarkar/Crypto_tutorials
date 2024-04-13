@@ -57,7 +57,7 @@ def get_key(val):
 
   return 0
 ```
-We now see why this get_key() function is needed, [here]().\
+We now see why this get_key() function is needed, [here](02-Affine_cipher.md#encoding).\
 
 [previous page](./00-preliminaries.md)\
 [next page](./02-Affine_cipher.md)
