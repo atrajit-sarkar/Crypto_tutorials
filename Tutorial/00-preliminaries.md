@@ -11,7 +11,7 @@ Where $\mathcal{P}$ is defined as $\mathcal{P}=\\{A,B,C,D,....X,Y,Z,...\\}$ as s
  ## Affine Cipher Encoding function:
  In case of affine cipher we have the following function of encoding:
  $\epsilon:\mathcal{P}\rightarrow \mathcal{P}$ defined by \
- $\mathcal{P}(p)=ap+b(mod |\mathcal{P}|) \text{ }\forall p\in \mathcal{P}$.
+ $\epsilon(p)=ap+b(mod |\mathcal{P}|) \text{ }\forall p\in \mathcal{P}$.
 
  Now, to do mathematical operation like addition and multiplication as defined above we use the convension:
 
